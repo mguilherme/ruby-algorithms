@@ -17,11 +17,11 @@ describe Fizzbuzz do
     expect(Fizzbuzz.chek_number(4)).to eq('4')
   end
 
-  it 'should return 5' do
+  it 'should return buzz' do
     expect(Fizzbuzz.chek_number(5)).to eq('buzz')
   end
 
-  it 'should return 6' do
+  it 'should return fizz' do
     expect(Fizzbuzz.chek_number(6)).to eq('fizz')
   end
 
@@ -33,15 +33,15 @@ describe Fizzbuzz do
     expect(Fizzbuzz.chek_number(8)).to eq('8')
   end
 
-  it 'should return 9' do
+  it 'should return fizz' do
     expect(Fizzbuzz.chek_number(9)).to eq('fizz')
   end
 
-  it 'should return 10' do
+  it 'should return buzz' do
     expect(Fizzbuzz.chek_number(10)).to eq('buzz')
   end
 
-  it 'should return 15' do
+  it 'should return fizzbuzz' do
     expect(Fizzbuzz.chek_number(15)).to eq('fizzbuzz')
   end
 
