@@ -1,0 +1,3 @@
+### Ruby Algorithms
+
+* [Fibonacci](fibonacci)
