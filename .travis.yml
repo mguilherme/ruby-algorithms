@@ -6,6 +6,7 @@ before_install: gem install bundler -v 1.12.5
 script:
   - sh -c 'cd fibonacci && bundle install && bundle exec rake'
   - sh -c 'cd fizzbuzz && bundle install && bundle exec rake'
+  - sh -c 'cd armstrong && bundle install && bundle exec rake'
 notifications:
   email:
     - mguilherme82@gmail.com
